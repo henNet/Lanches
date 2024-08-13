@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap");
+
+* {
+  font-family: "Roboto";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  background-color: rgb(255, 128, 128);
+}
+
+h1 {
+  margin: 0;
+  background-color: rgb(252, 18, 18);
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.botoes {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.combosContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  /* align-items: center; */
+  /* align-content: center; */
+  justify-content: center;
+  gap: 25px;
+  padding: 10px;
+}
+
+.combo {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.combo img {
+  width: 200px;
+}
+
+.quant {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quant input {
+  width: 20%;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carrinho {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+  padding: 10px;
+}
+
+.icon-button__badge {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 35px;
+  height: 35px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
